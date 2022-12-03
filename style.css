@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .main-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -19,10 +24,12 @@
     gap: 20px;
 
 }
-.card,.tall-card{
+
+.card, .tall-card {
     border: solid black 2px;
-    padding:10px;
+    padding: 10px;
 }
+
 .header {
     background-color: purple;
     grid-column: 2;
@@ -30,7 +37,46 @@
     flex-direction: column;
 }
 
-.row-1,.row-2{
+.row-1, .row-2 {
     display: flex;
+    padding: 20px;
+
 
 }
+
+
+.row-1, .row-2 {
+    justify-content: space-between;
+
+}
+
+.row-2 {
+    gap: 15px;
+
+}
+
+.row2-right-side {
+    display: flex;
+    gap: 20px;
+}
+
+.row1-left-side {
+    display: flex;
+    gap: 10px;
+    width: 70%;
+
+}
+
+.row2-left-side, .row2-right-side {
+    display: flex;
+    gap: 15px;
+}
+
+
+input[type='search'] {
+    display: flex;
+    flex: 1;
+
+}
+
+
