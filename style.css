@@ -31,7 +31,7 @@ body {
 }
 
 .header {
-    background-color: purple;
+    background-color: #f8fafc;
     grid-column: 2;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ body {
 
 .row-1, .row-2 {
     display: flex;
-    padding: 20px;
+    padding: 5px 20px;
 
 
 }
@@ -48,6 +48,7 @@ body {
 .row-1, .row-2 {
     justify-content: space-between;
 
+
 }
 
 .row-2 {
@@ -55,28 +56,44 @@ body {
 
 }
 
-.row2-right-side {
-    display: flex;
-    gap: 20px;
-}
 
 .row1-left-side {
     display: flex;
     gap: 10px;
     width: 70%;
+    align-items: center;
 
 }
 
 .row2-left-side, .row2-right-side {
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 
 input[type='search'] {
     display: flex;
     flex: 1;
+    border: black 2px solid;
+    border-radius: 50px;
+    background-color: #cbd5e1;
 
 }
 
+.boot-logo {
+    height: 75px;
+    width: 75px;
+}
 
+button {
+    background-color: #475569;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
