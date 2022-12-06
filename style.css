@@ -24,7 +24,6 @@ body {
     background-color: #d6d4d4;
 
 
-
 }
 
 .sidebar-logo-container {
@@ -38,20 +37,25 @@ body {
     grid-column: 2;
     grid-row: 2/span 6;
     display: grid;
-    grid-template: 2fr 2fr 1fr/2fr 2fr 1fr;
+    grid-template: 10px 2fr 10px 2fr 1fr/ 2fr 2fr 1fr;
     gap: 20px;
+    padding: 20px;
 
 }
 
-.card  {
+.card {
     border: solid black 2px;
     padding: 10px;
+
 }
 
-.tall-card{
-    border:  blue solid 2px;
-    padding:10px;
+.tall-card {
+    border: blue solid 2px;
+    padding: 10px;
+
 }
+
+
 
 .header {
     background-color: #f8fafc;
@@ -123,13 +127,73 @@ button {
 }
 
 
-.sidebar-logo-container{
+.sidebar-logo-container {
     padding: 10px;
 }
 
-.top-options,.bottom-options{
+.top-options, .bottom-options {
     display: flex;
     flex-direction: column;
 
 
+}
+
+.projects-text-container {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.announcements-text-container {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.trending-text-container {
+    grid-row: 3;
+    grid-column: 3;
+    margin-top: 100px;
+}
+
+#card-1 {
+    grid-row: 2;
+    grid-column: 1;
+    border: green solid 2px;
+}
+
+#card-2 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#card-3 {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+#card-4 {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#card-5 {
+    grid-row: 5;
+    grid-column: 1;
+
+}
+
+#card-6 {
+    grid-row: 5;
+    grid-column: 2;
+}
+#tall-card-1 {
+    grid-row: 2;
+    grid-column: 3;
+    margin-bottom: -100px;
+
+}
+
+#tall-card-2 {
+    grid-row: 4/span 2;
+    grid-column: 3;
+    margin-top: 100px;
 }
