@@ -1,11 +1,14 @@
 body {
     padding: 0;
     margin: 0;
+
 }
 
 .main-container {
     display: grid;
     grid-template-columns: 1fr 6fr;
+    grid-auto-rows: 1fr;
+    height: 100vh;
 
 
 }
@@ -13,12 +16,13 @@ body {
 .sidebar {
 
     grid-column: 1/1;
-    grid-row: 1/3;
+    grid-row: 1/span 7;
     display: flex;
     flex-direction: column;
     gap: 50px;
     padding: 20px;
     background-color: #d6d4d4;
+
 
 
 }
@@ -32,22 +36,30 @@ body {
 .card-container {
     background-color: red;
     grid-column: 2;
+    grid-row: 2/span 6;
     display: grid;
-    grid-template: 3fr 3fr/3fr 3fr;
+    grid-template: 2fr 2fr 1fr/2fr 2fr 1fr;
     gap: 20px;
 
 }
 
-.card, .tall-card {
+.card  {
     border: solid black 2px;
     padding: 10px;
+}
+
+.tall-card{
+    border:  blue solid 2px;
+    padding:10px;
 }
 
 .header {
     background-color: #f8fafc;
     grid-column: 2;
+    grid-row: 1/1;
     display: flex;
     flex-direction: column;
+
 }
 
 .row-1, .row-2 {
@@ -113,4 +125,11 @@ button {
 
 .sidebar-logo-container{
     padding: 10px;
+}
+
+.top-options,.bottom-options{
+    display: flex;
+    flex-direction: column;
+
+
 }
