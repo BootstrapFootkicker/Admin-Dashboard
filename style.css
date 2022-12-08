@@ -108,7 +108,7 @@ body {
 .tall-card-title-container-1 {
     margin-bottom: 12px;
     padding-top: 20px;
-    
+
     display: flex;
 
 
@@ -242,4 +242,16 @@ button {
     gap: 40px;
     justify-content: flex-end;
     align-items: center;
+}
+
+.tall-card-2-content img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.tall-card-2-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
 }
