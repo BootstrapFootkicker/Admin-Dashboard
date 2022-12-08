@@ -103,19 +103,13 @@ body {
     justify-content: center;
 
 
-
-
-
 }
 
 .tall-card-title-container-1 {
     margin-bottom: 12px;
-    padding-top:20px;
-    padding-left: 20px;
+    padding-top: 20px;
+    
     display: flex;
-
-
-
 
 
 }
@@ -233,11 +227,19 @@ button {
 }
 
 
-#tall-card-1{
+#tall-card-1 {
     margin-top: -10px;
 }
 
-.grid-tallcard-title:not(:first-child){
+.grid-tallcard-title:not(:first-child) {
     border-top: solid 2px #495579;
-    padding-top:5px;
+    padding-top: 5px;
+}
+
+.icon-container {
+    margin-top: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: center;
 }
