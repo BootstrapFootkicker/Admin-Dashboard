@@ -88,6 +88,9 @@ body {
     flex: 1;
     background-color: #FFFBEB;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 
 }
@@ -232,4 +235,9 @@ button {
 
 #tall-card-1{
     margin-top: -10px;
+}
+
+.grid-tallcard-title:not(:first-child){
+    border-top: solid 2px #495579;
+    padding-top:5px;
 }
